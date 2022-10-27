@@ -1,0 +1,19 @@
+:host /deep/ .vertical-tabs .mat-tab-group {
+    flex-direction: row;
+}
+:host /deep/ .vertical-tabs .mat-tab-header {
+    border-bottom: none;
+}
+:host /deep/ .vertical-tabs .mat-tab-header-pagination {
+    display: none !important;
+}
+:host /deep/ .vertical-tabs .mat-tab-labels {
+    flex-direction: column;
+}
+:host /deep/ .vertical-tabs .mat-ink-bar {
+    height: 100%;
+    left: 98% !important;
+}
+:host /deep/ .vertical-tabs .mat-tab-body-wrapper {
+    flex: 1 1 auto;
+}
