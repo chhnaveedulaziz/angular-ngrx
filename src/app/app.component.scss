@@ -3,13 +3,33 @@ mat-grid-list {
   margin: 10px
 }
 
-.welcome-card {
-  margin-top: 10%;
-}
-
 .no-users {
   text-align: center;
   padding: 50px 0;
   text-transform: uppercase;
 
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+:host ::ng-deep .vertical-tabs .mat-tab-group {
+  flex-direction: row;
+}
+:host ::ng-deep .vertical-tabs .mat-tab-header {
+  border-bottom: none;
+}
+:host ::ng-deep .vertical-tabs .mat-tab-header-pagination {
+  display: none !important;
+}
+:host ::ng-deep .vertical-tabs .mat-tab-labels {
+  flex-direction: column;
+}
+:host ::ng-deep .vertical-tabs .mat-ink-bar {
+  height: 100%;
+  left: 98% !important;
+}
+:host ::ng-deep .vertical-tabs .mat-tab-body-wrapper {
+  flex: 1 1 auto;
 }

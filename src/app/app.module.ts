@@ -16,12 +16,14 @@ import { MaterialModules } from 'src/material.module';
 import { AddUserDialogComponent } from './add-user-dialog/add-user-dialog.component';
 import { reducers, metaReducers } from 'src/reducers';
 import { UserEffects } from 'src/effects/user.effects';
+import {ProfileComponent} from "./profile/profile.component";
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddUserDialogComponent
+    AddUserDialogComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

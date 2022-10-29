@@ -5,22 +5,51 @@
       >Store for users added to PWA and listed below</mat-card-subtitle
     >
     <mat-card-content class="welcome-card-content">
-      <mat-selection-list #users [multiple]="false">
-        <mat-list-option *ngFor="let user of (users$ | async )" [value]="user">
-          {{ user.fullname }}
-        </mat-list-option>
-      </mat-selection-list>
+      <mat-tab-group>
+        <mat-tab label="User Info">
+          <div class="vertical-tabs">
+            <mat-form-field class="mt-20" appearance="fill">
+              <mat-label>Type Email to search</mat-label>
+              <input
+                matInput
+                #filterInputRef
+              />
+            </mat-form-field>
 
-      <h2 class="no-users" *ngIf="(users$ | async )?.length === 0">
-        <p>
-          <mat-icon
-            aria-hidden="true"
-            aria-label="No user found"
-            fontIcon="hide_source"
-          ></mat-icon>
-        </p>
-        No Users In Store
-      </h2>
+            <h2 class="no-users" *ngIf="(users$ | async )?.length === 0">
+              <p>
+                <mat-icon
+                  aria-hidden="true"
+                  aria-label="No user found"
+                  fontIcon="hide_source"
+                ></mat-icon>
+              </p>
+              No Data
+            </h2>
+
+            <mat-tab-group color="default" class="vertical" *ngIf="(users$ | async )?.length !== 0">
+              <mat-tab  *ngFor="let user of (users$ | async )" label="{{ user.fullname }}">
+                <user-profile>
+                  <div class="card-wrapper">
+                    <mat-card class="example-card">
+                      <mat-card-header>
+                        <mat-card-title>{{ user.fullname }}</mat-card-title>
+                        <mat-card-subtitle>
+                          {{ user.email }}
+                        </mat-card-subtitle>
+                      </mat-card-header>
+                    </mat-card>
+                  </div>
+                </user-profile>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+
+        </mat-tab>
+        <mat-tab label="History">
+          History
+        </mat-tab>
+      </mat-tab-group>
     </mat-card-content>
     <mat-divider inset></mat-divider>
     <mat-card-actions>
