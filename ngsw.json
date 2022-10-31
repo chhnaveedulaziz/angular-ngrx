@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1667206983569,
+  "index": "/https://github.com/theherd8/angular-ngrx/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/https://github.com/theherd8/angular-ngrx/favicon.ico",
+        "/https://github.com/theherd8/angular-ngrx/index.html",
+        "/https://github.com/theherd8/angular-ngrx/main.d587032cee817a50.js",
+        "/https://github.com/theherd8/angular-ngrx/manifest.webmanifest",
+        "/https://github.com/theherd8/angular-ngrx/polyfills.9e016de8a73d7c9c.js",
+        "/https://github.com/theherd8/angular-ngrx/runtime.6dbf8bac9fefbbb5.js",
+        "/https://github.com/theherd8/angular-ngrx/styles.64149f24ab077b0a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-128x128.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-144x144.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-152x152.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-192x192.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-384x384.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-512x512.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-72x72.png",
+        "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/https://github.com/theherd8/angular-ngrx/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/https://github.com/theherd8/angular-ngrx/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/https://github.com/theherd8/angular-ngrx/index.html": "67d1fab521c06144e113f614b71f27543351147f",
+    "/https://github.com/theherd8/angular-ngrx/main.d587032cee817a50.js": "744a95fe4262306b8cd75e3421943b5e988e06ef",
+    "/https://github.com/theherd8/angular-ngrx/manifest.webmanifest": "1348f4ea6a719211195f7afc4449d35e820d16a2",
+    "/https://github.com/theherd8/angular-ngrx/polyfills.9e016de8a73d7c9c.js": "f3ed2ec342e643b8c062e33d104db08bc79b8e27",
+    "/https://github.com/theherd8/angular-ngrx/runtime.6dbf8bac9fefbbb5.js": "fe24e81fee909116cdce33809d519eed8928f9fb",
+    "/https://github.com/theherd8/angular-ngrx/styles.64149f24ab077b0a.css": "1d52f3482132501bbc3515f0a5bb39ea75aeb96e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
